@@ -1,0 +1,6 @@
+Kravet til spillet for at det kan fungere
+
+Hvis man rammer “kanten” af banen, dør man.
+Rammer man sig selv “slangen”, dør man.
+Når man får et point (spiser en prik/firkant), bliver man en blok længere for hver gang.
+En point tæller så man kan se hvad ens high score er.
