@@ -1,4 +1,4 @@
-int speed = 2;
+int speed = 4;
 int snakeX = 400;
 int snakeY = 400;
 int snakeSize = 25;
@@ -16,12 +16,18 @@ void snake() {
 void keyPressed() {
 }
 void snakeMove() {
-switch(key){
-case 'w':
-  snakeY=snakeY-speed;
-  break;
-case 's':
-  snakeY=snakeY+speed;
-  break;
-}
+  switch(key) {
+  case 'w':
+    snakeY=snakeY-speed;
+    break;
+  case 's':
+    snakeY=snakeY+speed;
+    break;
+  case 'a':
+    snakeX=snakeX-speed;
+    break;
+  case 'd':
+    snakeX=snakeX+speed;
+    break;
+  }
 }
