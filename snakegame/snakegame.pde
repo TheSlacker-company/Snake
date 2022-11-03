@@ -8,7 +8,10 @@ void setup() {
 void draw() {
   background(35);
   snake();
-  snakeMove();
+  
+  if(!dead()){
+   snakeMove();
+  }else{ text("Dead",200,200);}
 }
 void snake() {
   rect(snakeX, snakeY, snakeSize, snakeSize);
